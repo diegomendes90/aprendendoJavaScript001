@@ -1,0 +1,40 @@
+body {
+    background: rgb(81, 134, 233);
+}
+header {
+    text-align: center;
+}
+section {
+    position: relative;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px black;
+    background: white;
+    padding: 20px;
+    margin: 30px;
+    
+}
+footer {
+    text-align: center;
+}
+div {
+    margin: 20px;
+}
+#bmanha {
+    width: 60px;
+    margin-bottom: 10px; 
+}
+#btarde {
+    width: 60px;
+    margin-bottom: 10px;
+}
+#bnoite {
+    width: 60px;
+    margin-bottom: 10px;
+}
+#bcontrole {
+    position: absolute;
+    top: 23%;
+    left: 10%;
+}

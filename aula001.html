@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JAVASCRIPT01</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Horas do dia</h1>
+    </header>
+    <section id="sec">
+        <div id="msg">
+            Aqui vai a msg
+        </div>
+        <div id="foto">
+            <img id="imagem" src="_imagem/manha99.png" alt="" srcset="">
+        </div>
+        <div id="bcontrole">
+            <input onclick="botaocontrolemanha()" id="bmanha" type="button" value="manhã"><br /> 
+            <input onclick="botaocontroletarde()" id="btarde" type="button" value="tarde"><br />
+            <input onclick="botaocontrolenoite()" id="bnoite" type="button" value="noite"><br />
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo me ensinou!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
