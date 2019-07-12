@@ -1,25 +1,29 @@
 body {
     background: rgb(81, 134, 233);
+    font: normal 15pt Arial;
 }
 header {
     text-align: center;
+    color: white;
 }
 section {
-    position: relative;
-    text-align: center;
-    border: solid 1px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
     background: white;
-    padding: 20px;
-    margin: 30px;
+    padding: auto;
+    width: auto;
+    margin: auto;
+    height: 150px;
     
 }
 footer {
     text-align: center;
+    font-style: italic;
+    color: white;
 }
 div {
-    margin: 20px;
+    text-align: center;
+    padding: 5px;
 }
 #bmanha {
     width: 60px;
@@ -34,7 +38,9 @@ div {
     margin-bottom: 10px;
 }
 #bcontrole {
-    position: absolute;
-    top: 23%;
-    left: 10%;
+    float: left;
+    margin: 0px 0px 0px 50px;
+}
+#foto {
+   
 }
