@@ -22,7 +22,7 @@ function carregar() {
     }
     else
     {
-        msg.innerHTML = 'ERRO'
+        msg.innerHTML = 'Escolha o período do dia'
         img.src = ''
     }
 }

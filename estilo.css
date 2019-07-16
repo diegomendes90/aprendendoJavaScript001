@@ -10,11 +10,10 @@ section {
     border-radius: 10px;
     box-shadow: 3px 3px 10px black;
     background: white;
-    padding: auto;
-    width: auto;
+    width: 450px;
     margin: auto;
+    padding: 15px;
     height: 150px;
-    
 }
 footer {
     text-align: center;
